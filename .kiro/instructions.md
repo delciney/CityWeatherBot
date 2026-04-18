@@ -24,3 +24,5 @@
 - ✅ 17/04/2026 às 17:41 — estrutura do projeto, endpoint de teste.
 - ✅ 17/04/2026 às 23:39 — swagger adicionado.
 - ✅ 18/04/2026 às 00:03 — projeto de testes criado com teste do endpoint /test.
+- ✅ 18/04/2026 às 15:39 — corrigido sonarqube.yml: adicionado step Setup .NET (dotnet 8.0.x) e corrigido path do build para `api/CityWeatherBot.slnx`. Build do GitHub Actions passou.
+- ✅ 18/04/2026 às 19:40 — substituído linting de node por dotnet format. adicionado .editorconfig, makefile e workflow de linting para c#.

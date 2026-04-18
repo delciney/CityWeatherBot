@@ -1,0 +1,17 @@
+name: Linting
+
+on: pull_request
+
+jobs:
+  dotnet-format:
+    name: dotnet format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - run: dotnet format --verify-no-changes
+        working-directory: api
