@@ -10,3 +10,5 @@ app.UseSwaggerUI();
 app.MapGet("/test", () => true);
 
 app.Run();
+
+public partial class Program { }
