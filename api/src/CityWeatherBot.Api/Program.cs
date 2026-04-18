@@ -9,6 +9,8 @@ app.UseSwaggerUI();
 
 app.MapGet("/test", () => true);
 
+app.MapGet("/testB", () => false);
+
 app.Run();
 
 public partial class Program { }
